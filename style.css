@@ -61,6 +61,11 @@ span, #copyright {
 @media only screen and (max-width:500px){
   h1{
     background-color: rgb(202, 199, 199);
+    font-size: xx-large;
   }
-  
+  .entire {
+    display: grid;
+    grid-template-columns: repeat(1rf 1fr);
+
+  }
 }
